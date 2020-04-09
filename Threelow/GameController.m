@@ -16,11 +16,8 @@
     if (self) {
         _dice = @[
              [Dice new],
-             [Dice new],
-             [Dice new],
-             [Dice new],
-             [Dice new]
         ];
+        
         _holdDie = [NSMutableArray new];
     }
     return self;
